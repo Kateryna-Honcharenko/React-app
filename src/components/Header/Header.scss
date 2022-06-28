@@ -1,0 +1,179 @@
+.header {
+  position: relative;
+  width: 500px;
+  margin: 0 0 20px 30px;
+  text-align: center;
+  
+  &__add-btn {
+    padding: 10px 10px;
+    text-align: center;
+    font-family: "Azo Sans";
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgb(90, 204, 90);
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+
+  &__add-btn:hover {
+    font-family: "Azo Sans";
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgb(13, 192, 13);
+    color: white;
+  }
+
+  &__search {
+    padding: 10px 0 5px 10px ;
+  }
+
+  &__menu {
+    padding: 0;
+    font-family: "Azo Sans";
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &__menu:hover {
+    color: blue;
+  }
+
+  &__title {
+    margin: 0 0 20px;
+    font-family: 'Azo Sans';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    color: #191B21;
+  }
+
+  &__description {
+    margin: 0 0 26px;
+    font-family: 'Azo Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #191B21;
+    opacity: 0.6;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__btn button {
+    width: 130px;
+    height: 45px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  &__delete-btn {
+    font-family: "Azo Sans";
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgb(224, 91, 91);
+    color: white;
+    border: none;
+  }
+
+  &__delete-btn:hover {
+    font-family: "Azo Sans";
+    font-weight: 100;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+  }
+
+  &__edit-btn {
+    font-family: "Azo Sans";
+    font-weight: 100;
+    font-size: 20px;
+  }
+  
+  
+  &__modal-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    font-family: "Azo Sans";
+    font-size: 30px;
+    background-color: rgb(155 255 176);
+    border: 2px solid #51ff72;
+    border-radius: 10px;
+  }
+
+  &__modal-window input,
+  &__editor-window input {
+    width: 250px;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+  }
+
+  &__modal-window label,
+  &__editor-window label {
+    display: block;
+  }
+
+  &__modal-window-btn,
+  &__editor-window-btn {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  &__modal-window-btn button,
+  &__editor-window-btn button{
+    width: 100px;
+    font-family: "Azo Sans"; 
+    font-size: 20px; 
+    padding: 10px 10px;
+    color:white;
+    border: none;
+  }
+
+  &__modal-window__cancel-btn,
+  &__editor-window__cancel-btn{
+    padding: 0;
+    background-color: rgb(245, 59, 59);
+    cursor: pointer
+  }
+
+  &__modal-window__submit-btn,
+  &__editor-window__submit-btn {
+    width: 100px;
+    padding: 0;
+    background-color: rgb(56, 211, 56);
+    cursor: pointer
+  }
+  
+  &__modal-window textarea,
+  &__editor-window textarea {
+    width: 450px;
+    height: 80px;
+  }
+
+ &__editor-window {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Azo Sans";
+  font-size: 30px;
+  background-color: rgb(235 235 235);
+  border-radius: 10px;
+  border: 2px solid rgb(141, 129, 123);
+ }
+}
