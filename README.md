@@ -1,7 +1,5 @@
 # Test work - React-app
 
-[DEMOLINK](https://kate-honch.github.io/React-app/)
-
 ## Local Deployment
 
 1. Dependencies
